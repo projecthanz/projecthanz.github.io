@@ -3,8 +3,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Oxanium;
 }
-
+h2{
+  font-size: 55px;
+  background: linear-gradient ( #861cff, #5900de, #2c02c4, #861cff);
+  background-clip:text;
+  color: transparent;
+}
 .desi{
   display: flex;
   text-align: center;
@@ -13,9 +19,10 @@ body{
   align-items: center;
   background-color: #242424;
   color: #fff;
-  margin-top: 225px;
+  font-size: 50px;
+  margin-top: 500px;
   padding: 2em;
-  width: 300px;
+  width: 500px;
   border-radius: 20px;
   position: relative;
 }
@@ -54,3 +61,7 @@ body{
     --angle: 360deg;
   }
 }
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Rubik+Wet+Paint&display=swap');
+</style>

@@ -1,0 +1,39 @@
+h1 {
+	color: #03a5fc;
+	text-align: center;
+}
+body{background-color: #000000;
+font-size: 40px;
+}
+.man{color: #FFFFFF;
+font-family: Agdasima;
+text-align: center;
+}
+.man2to4{text-align: center;
+color: #FFFFFF;
+font-family: Agdasima;
+
+}
+
+.lie{
+text-align: center;
+align-content: center;
+}
+.lie a{color: #FFFFFF;
+background: #03a5fc;
+border-radius: 20px;
+padding: 4px;
+font-family: Oxanium;
+transition: color .35 ease-in-out;
+box-shadow: .4 ease-in-out;
+}
+
+.lie a:hover{background: #FFFFFF;
+color: #000000;
+box-shadow: 0 2px 8px #FFFFFF,
+0 -2px 8px #FFFFFF;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
